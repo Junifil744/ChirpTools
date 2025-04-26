@@ -1,0 +1,22 @@
+Journey models reverse engineering
+
+Header, i do not know much yet but I found the following
+    Length of the face buffer is at address 0x00000048 of the file.
+    Length of the vertex buffer is at 0x0000004C.
+    They are both uint16
+
+Data starts at 0C B1 01 02 00
+Face buffer is first. Right after 0C B1 01 02 00
+    Always uses uint16, always 6 bytes.
+    Ends at the length defined in the header
+    Also add a +1 to the face IDs, apparently starting with face ID 0 just had the shapes collapse.
+
+Vertex buffer comes after. Right after the face buffer. No separator byte between them.
+    Always 3 floats one after the other (12 bytes)
+    Each file seems to have a different padding between values
+        After the 3 floats, there are 8 bytes to skip ahead, after that, there are 2 half-floats, those are the U and V respectively.
+       
+        I found this uint8 value at an address that differs from files.
+        I calculated it by looking at the last instance of the string "dae#"
+        Then reading 40 bytes ahead, looking for the last instance of a 00 byte then the first instance of a non-00 byte. Shows how many bytes each vertice takes total
+    Ends at the length defined in the header (Unverified)
