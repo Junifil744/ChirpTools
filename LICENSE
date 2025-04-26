@@ -1,0 +1,14 @@
+Copyright (c) Junifil 2025
+==========================
+
+Permission is hereby granted to use, modify, distribute and sublicense this code and its parts for any purpose, including commercial use, EXCEPT for the following terms:
+- You may NOT redistribute or sell this code in its entirety, or substantially smaller versions for direct monetary gain, unless you are the original author.
+- In the small chance you meet me, you owe me a fox picture.
+
+In plain terms: You can use this code however you like. You simply cannot clone the whole thing and sell it unless you are me.
+
+This software is provided "as is" without warranty of any kind.
+
+This project includes third-party components:
+- SharpGLTF, licensed under the MIT License. 
+  Check third_party/SharpGLFT/LICENSE for details.
