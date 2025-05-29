@@ -8,7 +8,3 @@ Permission is hereby granted to use, modify, distribute and sublicense this code
 In plain terms: You can use this code however you like. You simply cannot clone the whole thing and sell it unless you are me.
 
 This software is provided "as is" without warranty of any kind.
-
-This project includes third-party components:
-- SharpGLTF, licensed under the MIT License. 
-  Check third_party/SharpGLFT/LICENSE for details.
