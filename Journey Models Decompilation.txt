@@ -20,3 +20,8 @@ Vertex buffer comes after. Right after the face buffer. No separator byte betwee
         I calculated it by looking at the last instance of the string "dae#"
         Then reading 40 bytes ahead, looking for the last instance of a 00 byte then the first instance of a non-00 byte. Shows how many bytes each vertice takes total
     Ends at the length defined in the header (Unverified)
+
+Files with an "_A_" inside their name appear to be animations, containing no mesh data.
+I will not support them yet, however I may add hardcoded exceptions to their main files.
+Example, calling, idk.. "C_ClothNinja" will also prompt you which animation to build it with. If any at all. or.. eh i dont know. I genuinely have no idea..
+How ill go about that part. Like what if people wanna switch through multiple animations... i dont know. I dont know..
