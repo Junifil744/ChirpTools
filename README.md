@@ -19,6 +19,7 @@ This tool takes Journey's D3D11x64 model files and converts them into .obj files
 - Vertex color isn't supported yet.<br>
 - There are still PLENTY of things I do not know about this game's model's file format yet.<br>
 - (Optional) I may add support for the armatures and bone structures.<br>
+- (Optional) If I do add support for armatures and bones, maybe I'll go for animations but I don't know.<br>
 - (Optional) Linux support. I know, I know, disappointment.<br>
 
 ## Some things I will just NOT make.
