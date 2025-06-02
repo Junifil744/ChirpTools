@@ -15,7 +15,12 @@ This tool takes Journey's D3D11x64 model files and converts them into .obj files
    - .jmdl (NOT IMPLEMENTED YET)
   
 ## This project is NOT finished yet!
-- I have yet to test every model, I've only tested 4.<br>
+- I have yet to test every model. However! From what I have tested.<br>
+  - Files starting with P\_ aren't supported yet.
+  - Neither are files containing \_A\_
+  - Same for C\_<br>
+- I do not know what is different with them yet. They just dont work, thats 972 models out of 1055. I'm very sorry.<br><br>
+
 - Vertex color isn't supported yet.<br>
 - There are still PLENTY of things I do not know about this game's model's file format yet.<br>
 - (Optional) I may add support for the armatures and bone structures.<br>
