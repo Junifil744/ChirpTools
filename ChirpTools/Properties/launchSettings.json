@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "JourneyPCParser": {
+      "commandName": "Project",
+      "commandLineArgs": "G:\\Steam\\steamapps\\common\\Journey\\Data\\Meshes\\Symbol2.D3D11x64 Symbol2.obj"
+    }
+  }
+}
