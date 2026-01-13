@@ -16,7 +16,7 @@ This tool takes Journey's D3D11x64 model files and converts them into .obj files
   
 ## This project is NOT finished yet!
 - I have yet to test every model. However! From what I have tested, files with more than one mesh aren't supported, which includes,<br>
-  - Most files starting with P\_(Prop files)
+  - Most files starting with P\_ (Prop files)
   - Files starting with C\_ (Character files)<br>
 - Additionally, Files containing \_A\_ (Animation Files, they contain no mesh data) are not supported.
 

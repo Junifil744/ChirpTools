@@ -96,7 +96,14 @@ namespace ChirpTools
                 //                                                             //
 
                 // The start of the data buffer we use, I literally don't know the use of anythin before that in the model file.
-                UInt16 dataBufferAddress = (UInt16)(FindFirstPatternIndex(inputFile, new byte[] { 0x0C, 0xB1, 0x01, 0x02, 0x00 }) + 5);
+                UInt16 dataBufferAddress = 0;
+                try {
+                    dataBufferAddress = (UInt16)(FindFirstPatternIndex(inputFile, new byte[] { 0x0C, 0xB1, 0x01 }) + 5);
+                } catch {
+                    Console.WriteLine("Not supported");
+                    Environment.Exit(1);
+                }
+                
                 
                 stream.Position = 72;
                 UInt32 faceBufferLength = reader.ReadUInt32();

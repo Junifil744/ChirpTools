@@ -2,7 +2,7 @@
   "profiles": {
     "JourneyPCParser": {
       "commandName": "Project",
-      "commandLineArgs": "E:\\SteamLibrary\\steamapps\\common\\Journey\\Data\\Meshes\\P_WarMachine.D3D11x64 P_WarMachine.dae"
+      "commandLineArgs": "E:\\SteamLibrary\\steamapps\\common\\Journey\\Data\\Meshes\\Box.D3D11x64 Box.dae"
     }
   }
 }
